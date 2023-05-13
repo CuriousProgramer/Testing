@@ -8,10 +8,13 @@ export const metadata = {
   description: 'Made for online devlivery',
 }
 
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>{children}
+        Test Added
+      </body>
     </html>
   )
 }
