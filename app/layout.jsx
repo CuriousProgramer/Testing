@@ -14,6 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>{children}
         Test Added
+        Added test1 on main branch
       </body>
     </html>
   )
